@@ -1,0 +1,26 @@
+# Archivos compilados de Java
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/
+build/
+dist/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
