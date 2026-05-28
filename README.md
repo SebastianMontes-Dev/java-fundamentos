@@ -18,7 +18,13 @@ java-fundamentos/
 │   └── ReemplazarSubcadenas.java
 └── 02-ejercicios/       # Ejercicios aplicados
     ├── TablaMultiplicar.java
-    └── GeneradorEmail.java
+    ├── GeneradorEmail.java
+    ├── EntradaConsola.java
+    ├── NumeroAleatorio.java
+    ├── LecturaTiposDatos.java
+    ├── RegistroEmpleado.java
+    ├── GeneradorIdUsuario.java
+    └── RegistroReceta.java
 ```
 
 ---
@@ -46,6 +52,12 @@ Ejercicios que combinan múltiples conceptos en un caso de uso real.
 |---------|-------------|
 | `TablaMultiplicar.java` | Genera una tabla de multiplicar con entrada del usuario y un bucle `for` |
 | `GeneradorEmail.java` | Construye un correo corporativo manipulando cadenas |
+| `EntradaConsola.java` | Lectura básica de datos desde la terminal con Scanner |
+| `NumeroAleatorio.java` | Generación de números aleatorios enteros y flotantes con Random |
+| `LecturaTiposDatos.java` | Lectura de int, double y String usando métodos directos y conversión |
+| `RegistroEmpleado.java` | Registro de datos de un empleado con distintos tipos de datos |
+| `GeneradorIdUsuario.java` | Genera un ID único combinando iniciales, año de nacimiento y un número aleatorio |
+| `RegistroReceta.java` | Registro de receta de cocina con nombre, ingredientes, tiempo y dificultad |
 
 ---
 
