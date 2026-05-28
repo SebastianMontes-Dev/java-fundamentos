@@ -16,15 +16,17 @@ java-fundamentos/
 │   ├── ManejoSubcadena.java
 │   ├── MetodosCadenas.java
 │   └── ReemplazarSubcadenas.java
-└── 02-ejercicios/       # Ejercicios aplicados
-    ├── TablaMultiplicar.java
-    ├── GeneradorEmail.java
-    ├── EntradaConsola.java
-    ├── NumeroAleatorio.java
-    ├── LecturaTiposDatos.java
-    ├── RegistroEmpleado.java
-    ├── GeneradorIdUsuario.java
-    └── RegistroReceta.java
+├── 02-ejercicios/       # Ejercicios aplicados
+│   ├── TablaMultiplicar.java
+│   ├── GeneradorEmail.java
+│   ├── RegistroEmpleado.java
+│   ├── GeneradorIdUsuario.java
+│   └── RegistroReceta.java
+├── 03-scanner/          # Lectura de datos con Scanner
+│   ├── EntradaConsola.java
+│   └── LecturaTiposDatos.java
+└── 04-random/           # Números aleatorios con Random
+    └── NumeroAleatorio.java
 ```
 
 ---
@@ -52,12 +54,26 @@ Ejercicios que combinan múltiples conceptos en un caso de uso real.
 |---------|-------------|
 | `TablaMultiplicar.java` | Genera una tabla de multiplicar con entrada del usuario y un bucle `for` |
 | `GeneradorEmail.java` | Construye un correo corporativo manipulando cadenas |
-| `EntradaConsola.java` | Lectura básica de datos desde la terminal con Scanner |
-| `NumeroAleatorio.java` | Generación de números aleatorios enteros y flotantes con Random |
-| `LecturaTiposDatos.java` | Lectura de int, double y String usando métodos directos y conversión |
 | `RegistroEmpleado.java` | Registro de datos de un empleado con distintos tipos de datos |
 | `GeneradorIdUsuario.java` | Genera un ID único combinando iniciales, año de nacimiento y un número aleatorio |
 | `RegistroReceta.java` | Registro de receta de cocina con nombre, ingredientes, tiempo y dificultad |
+
+### 03 - Lectura de datos con `Scanner`
+
+Ejercicios enfocados en la entrada de datos por consola usando la clase `Scanner`.
+
+| Archivo | Concepto | Métodos |
+|---------|----------|---------|
+| `EntradaConsola.java` | Lectura básica de cadenas | `nextLine()` |
+| `LecturaTiposDatos.java` | Lectura de distintos tipos | `nextInt()`, `nextDouble()`, `nextLine()`, `Integer.parseInt()` |
+
+### 04 - Números aleatorios con `Random`
+
+Ejercicios sobre generación de valores pseudoaleatorios con la clase `Random`.
+
+| Archivo | Concepto | Métodos |
+|---------|----------|---------|
+| `NumeroAleatorio.java` | Enteros y flotantes aleatorios | `nextInt(limite)`, `nextFloat(origen, limite)` |
 
 ---
 
