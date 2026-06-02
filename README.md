@@ -1,7 +1,7 @@
 # Java Fundamentos
 
 Colección de ejercicios prácticos para aprender los fundamentos de programación en Java.
-Cada ejercicio está comentado y enfocado en un concepto específico del lenguaje.
+Cada ejercicio está documentado y enfocado en un concepto específico del lenguaje.
 
 ---
 
@@ -9,24 +9,34 @@ Cada ejercicio está comentado y enfocado en un concepto específico del lenguaj
 
 ```
 java-fundamentos/
-├── 01-cadenas/          # Métodos de la clase String
+├── 01-cadenas/            # Métodos de la clase String
 │   ├── BuscarSubcadenas.java
 │   ├── CaracterEnCadena.java
 │   ├── ComparacionCadenas.java
 │   ├── ManejoSubcadena.java
 │   ├── MetodosCadenas.java
 │   └── ReemplazarSubcadenas.java
-├── 02-ejercicios/       # Ejercicios aplicados
+├── 02-ejercicios/         # Ejercicios aplicados (combinan múltiples conceptos)
 │   ├── TablaMultiplicar.java
 │   ├── GeneradorEmail.java
 │   ├── RegistroEmpleado.java
 │   ├── GeneradorIdUsuario.java
 │   └── RegistroReceta.java
-├── 03-scanner/          # Lectura de datos con Scanner
+├── 03-scanner/            # Lectura de datos con Scanner
 │   ├── EntradaConsola.java
 │   └── LecturaTiposDatos.java
-└── 04-random/           # Números aleatorios con Random
-    └── NumeroAleatorio.java
+├── 04-random/             # Generación de números aleatorios con Random
+│   └── NumeroAleatorio.java
+├── 05-operadores/         # Operadores aritméticos, unitarios y de asignación
+│   ├── OperadoresAritmeticos.java
+│   ├── OperadoresUnitarios.java
+│   ├── OperadorSimpleYCompuesto.java
+│   └── TicketVenta.java
+└── 06-condicionales/      # Operadores lógicos, relacionales y sentencia if
+    ├── SentenciaIf.java
+    ├── ValidacionRango.java
+    ├── SistemaDescuentoVip.java
+    └── SistemaPrestamoLibro.java
 ```
 
 ---
@@ -48,11 +58,11 @@ Ejercicios sobre los métodos más usados de la clase `String` en Java.
 
 ### 02 - Ejercicios Aplicados
 
-Ejercicios que combinan múltiples conceptos en un caso de uso real.
+Ejercicios que combinan múltiples conceptos en un caso de uso concreto.
 
 | Archivo | Descripción |
 |---------|-------------|
-| `TablaMultiplicar.java` | Genera una tabla de multiplicar con entrada del usuario y un bucle `for` |
+| `TablaMultiplicar.java` | Genera una tabla de multiplicar con entrada del usuario y bucle `for` |
 | `GeneradorEmail.java` | Construye un correo corporativo manipulando cadenas |
 | `RegistroEmpleado.java` | Registro de datos de un empleado con distintos tipos de datos |
 | `GeneradorIdUsuario.java` | Genera un ID único combinando iniciales, año de nacimiento y un número aleatorio |
@@ -60,7 +70,7 @@ Ejercicios que combinan múltiples conceptos en un caso de uso real.
 
 ### 03 - Lectura de datos con `Scanner`
 
-Ejercicios enfocados en la entrada de datos por consola usando la clase `Scanner`.
+Ejercicios enfocados en la entrada de datos por consola.
 
 | Archivo | Concepto | Métodos |
 |---------|----------|---------|
@@ -69,11 +79,33 @@ Ejercicios enfocados en la entrada de datos por consola usando la clase `Scanner
 
 ### 04 - Números aleatorios con `Random`
 
-Ejercicios sobre generación de valores pseudoaleatorios con la clase `Random`.
+Ejercicios sobre generación de valores pseudoaleatorios.
 
 | Archivo | Concepto | Métodos |
 |---------|----------|---------|
 | `NumeroAleatorio.java` | Enteros y flotantes aleatorios | `nextInt(limite)`, `nextFloat(origen, limite)` |
+
+### 05 - Operadores
+
+Ejercicios sobre los tres grupos de operadores fundamentales en Java.
+
+| Archivo | Concepto | Operadores |
+|---------|----------|-----------|
+| `OperadoresAritmeticos.java` | Operaciones matemáticas básicas | `+`, `-`, `*`, `/`, `%` |
+| `OperadoresUnitarios.java` | Operadores de un solo operando | `+a`, `-a`, `++a`, `--a`, `a++`, `a--` |
+| `OperadorSimpleYCompuesto.java` | Asignación simple y compuesta | `=`, `+=`, `-=`, `*=`, `/=`, `%=` |
+| `TicketVenta.java` | Aplicación práctica de operadores | `+`, `%` con `double` |
+
+### 06 - Condicionales y Lógica Booleana
+
+Ejercicios sobre operadores relacionales, lógicos y la sentencia `if`.
+
+| Archivo | Concepto | Operadores / Sentencia |
+|---------|----------|------------------------|
+| `SentenciaIf.java` | Flujo condicional básico | `if`, `>=` |
+| `ValidacionRango.java` | Validación de rango numérico | `&&`, `>=`, `<=` |
+| `SistemaDescuentoVip.java` | Lógica AND aplicada (dos condiciones) | `&&`, `>=` |
+| `SistemaPrestamoLibro.java` | Lógica OR aplicada (condición alternativa) | `\|\|` |
 
 ---
 
@@ -83,13 +115,13 @@ Cada archivo es independiente. Para compilar y ejecutar cualquier ejercicio desd
 
 ```bash
 # Moverse a la carpeta del ejercicio
-cd 01-cadenas
+cd 05-operadores
 
 # Compilar
-javac BuscarSubcadenas.java
+javac OperadoresAritmeticos.java
 
 # Ejecutar
-java BuscarSubcadenas
+java OperadoresAritmeticos
 ```
 
 ---
