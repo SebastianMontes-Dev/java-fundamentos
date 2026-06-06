@@ -1,15 +1,40 @@
 /**
- * Demostración de los métodos más comunes de la clase String en Java.
+ * ============================================================
+ *  TEMA: Manipulación de Cadenas (String) en Java
+ *  SECCIÓN: 01 — Cadenas
+ *  ARCHIVO: MetodosCadenas.java
+ * ============================================================
  *
- * Métodos cubiertos:
- *   - length()      : devuelve la longitud (cantidad de caracteres) de la cadena.
- *   - replace()     : reemplaza un carácter o subcadena por otro.
- *   - toUpperCase() : convierte todos los caracteres a mayúsculas.
- *   - toLowerCase() : convierte todos los caracteres a minúsculas.
- *   - trim()        : elimina los espacios en blanco al inicio y al final.
+ *  ¿QUÉ APRENDERÁS EN ESTE ARCHIVO?
+ *  ----------------------------------
+ *  Este archivo reúne los 5 métodos más utilizados de la clase String: length()
+ *  para conocer el tamaño, replace() para sustituir texto, toUpperCase() y
+ *  toLowerCase() para normalizar mayúsculas/minúsculas, y trim() para limpiar
+ *  espacios. Dominar estos métodos es el primer paso para cualquier tarea de
+ *  procesamiento de texto en Java, desde formularios web hasta parseo de archivos.
  *
- * Nota: Los objetos String en Java son inmutables. Cada método devuelve
- * una nueva cadena sin modificar la original.
+ *  CONCEPTOS CLAVE:
+ *  ----------------------------------
+ *  - length(): devuelve la cantidad de caracteres de la cadena.
+ *  - replace(): reemplaza un carácter o subcadena por otro (todas las ocurrencias).
+ *  - toUpperCase() / toLowerCase(): convierten a mayúsculas/minúsculas.
+ *  - trim(): elimina espacios en blanco al inicio y al final.
+ *  - Inmutabilidad: los String en Java NUNCA se modifican; cada método devuelve una NUEVA cadena.
+ *
+ *  SINTAXIS BÁSICA:
+ *  ----------------------------------
+ *  String texto = "  Hola Mundo  ";
+ *  texto.trim().toUpperCase(); // "HOLA MUNDO"
+ *
+ *  ERRORES COMUNES:
+ *  ----------------------------------
+ *  - Esperar que el String original cambie: String es INMUTABLE, siempre guarda el resultado.
+ *  - trim() solo elimina espacios al inicio y final, no los espacios entre palabras.
+ *
+ *  RECURSOS ADICIONALES:
+ *  ----------------------------------
+ *  - Documentación oficial: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+ * ============================================================
  */
 public class MetodosCadenas {
 

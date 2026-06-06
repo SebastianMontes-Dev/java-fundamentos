@@ -1,29 +1,40 @@
 import java.util.Scanner;
 
 /**
- * Ejercicio: Sistema de préstamo de libro gratuito.
+ * ============================================================
+ *  TEMA: Estructuras Condicionales en Java
+ *  SECCIÓN: 06 — Condicionales
+ *  ARCHIVO: SistemaPrestamoLibro.java
+ * ============================================================
  *
- * El préstamo se aprueba cuando se cumple AL MENOS UNA de estas condiciones:
- *   1. El usuario tiene credenciales de estudiante activas.
- *   2. El usuario vive a no más de 3 km de la biblioteca.
+ *  ¿QUÉ APRENDERÁS EN ESTE ARCHIVO?
+ *  ----------------------------------
+ *  Implementarás un sistema de préstamo donde el beneficio se otorga si se cumple
+ *  AL MENOS UNA de varias condiciones, usando el operador lógico || (OR). A
+ *  diferencia de && (que exige todas), || es permisivo: basta con que UNA sola
+ *  condición sea verdadera. Este patrón se usa en sistemas de elegibilidad,
+ *  filtros de búsqueda con múltiples criterios y validaciones flexibles.
  *
- * Concepto clave — operador lógico || (OR):
- *   Devuelve true si AL MENOS UNA condición es verdadera.
- *   Solo devuelve false si AMBAS condiciones son falsas.
+ *  CONCEPTOS CLAVE:
+ *  ----------------------------------
+ *  - Operador lógico || (OR): true si al menos UNA condición es true.
+ *  - Tabla de verdad: solo false||false = false.
+ *  - Buenas prácticas: no escribir `(variable == true)`, usar la variable directamente.
+ *  - Nombres descriptivos: `tieneCredenciales`, `viveEnZona` (autodocumentan el código).
  *
- *   Tabla de verdad:
- *     true  || true  = true   → préstamo aprobado
- *     true  || false = true   → préstamo aprobado
- *     false || true  = true   → préstamo aprobado
- *     false || false = false  → préstamo denegado
+ *  SINTAXIS BÁSICA:
+ *  ----------------------------------
+ *  boolean prestamoAprobado = tieneCredenciales || viveEnZona;
  *
- * Buenas prácticas aplicadas:
- *   - Se evita escribir (variable == true); la variable booleana ya es la expresión.
- *   - Nombres de variable descriptivos que expresan el significado del dato.
+ *  ERRORES COMUNES:
+ *  ----------------------------------
+ *  - Usar un solo | (OR bit a bit) en vez de || (OR lógico con cortocircuito).
+ *  - Confundir || (OR: al menos una) con && (AND: todas).
  *
- * Conceptos practicados:
- *   - Operador lógico || (OR).
- *   - Lectura de booleanos con Scanner.
+ *  RECURSOS ADICIONALES:
+ *  ----------------------------------
+ *  - Documentación oficial: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html
+ * ============================================================
  */
 public class SistemaPrestamoLibro {
 

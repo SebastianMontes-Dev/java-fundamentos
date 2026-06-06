@@ -1,17 +1,38 @@
 /**
- * Demostración del método substring() para extraer porciones de una cadena en Java.
+ * ============================================================
+ *  TEMA: Manipulación de Cadenas (String) en Java
+ *  SECCIÓN: 01 — Cadenas
+ *  ARCHIVO: ManejoSubcadena.java
+ * ============================================================
  *
- * Métodos utilizados:
- *   - length()               : devuelve la cantidad de caracteres de la cadena.
- *   - substring(inicio, fin) : extrae los caracteres desde el índice 'inicio'
- *                              hasta 'fin - 1' (el índice final es exclusivo).
+ *  ¿QUÉ APRENDERÁS EN ESTE ARCHIVO?
+ *  ----------------------------------
+ *  substring() te permite EXTRAER una porción (subcadena) de una cadena más grande
+ *  especificando los índices de inicio y fin. Es una de las operaciones más usadas
+ *  para parsear datos: extraer nombres de un texto, leer campos de un CSV, obtener
+ *  extensiones de archivos, o cualquier tarea que implique "recortar" texto.
  *
- * Ejemplo visual con "Comida de japon":
- *   índices:  0123456789012345
- *   cadena:   Comida de japon
- *             ^^^^^^           → substring(0, 6)  = "Comida"
- *                    ^^        → substring(7, 9)  = "de"
- *                       ^^^^^ → substring(10, 15) = "japon"
+ *  CONCEPTOS CLAVE:
+ *  ----------------------------------
+ *  - substring(inicio, fin): extrae desde 'inicio' (inclusive) hasta 'fin' (exclusive).
+ *  - length(): devuelve el número total de caracteres en la cadena.
+ *  - El índice 'fin' NO se incluye en el resultado (fin - 1 es el último incluido).
+ *
+ *  SINTAXIS BÁSICA:
+ *  ----------------------------------
+ *  String fecha = "2026-06-06";
+ *  String anio = fecha.substring(0, 4); // "2026"
+ *  String mes  = fecha.substring(5, 7); // "06"
+ *
+ *  ERRORES COMUNES:
+ *  ----------------------------------
+ *  - Pasar un índice inicio > índice fin → StringIndexOutOfBoundsException.
+ *  - Olvidar que el índice fin es exclusivo, incluyendo uno de más o de menos.
+ *
+ *  RECURSOS ADICIONALES:
+ *  ----------------------------------
+ *  - Documentación oficial: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+ * ============================================================
  */
 public class ManejoSubcadena {
 

@@ -1,17 +1,42 @@
 /**
- * Demostración de los operadores unitarios (unarios) en Java.
+ * ============================================================
+ *  TEMA: Operadores en Java
+ *  SECCIÓN: 05 — Operadores
+ *  ARCHIVO: OperadoresUnitarios.java
+ * ============================================================
  *
- * Operadores cubiertos:
- *   +a  → signo positivo: confirma el valor (no modifica nada)
- *   -a  → negación aritmética: invierte el signo del valor
- *   ++a → pre-incremento: incrementa a en 1 y luego asigna el nuevo valor
- *   --a → pre-decremento: decrementa a en 1 y luego asigna el nuevo valor
- *   a++ → post-incremento: asigna el valor actual y luego incrementa a en 1
- *   a-- → post-decremento: asigna el valor actual y luego decrementa a en 1
+ *  ¿QUÉ APRENDERÁS EN ESTE ARCHIVO?
+ *  ----------------------------------
+ *  Los operadores unarios actúan sobre UN SOLO operando. Los más importantes son
+ *  el pre-incremento (++a) y post-incremento (a++), cuya diferencia sutil causa
+ *  confusión incluso a programadores con experiencia. En PRE, el incremento ocurre
+ *  ANTES de usar la variable; en POST, ocurre DESPUÉS. Entender esto es vital
+ *  para bucles, contadores y cualquier lógica que dependa del momento del incremento.
  *
- * Diferencia clave entre pre y post:
- *   - Pre  (++a / --a): el cambio ocurre ANTES de usar el valor en la expresión.
- *   - Post (a++ / a--): el cambio ocurre DESPUÉS de usar el valor en la expresión.
+ *  CONCEPTOS CLAVE:
+ *  ----------------------------------
+ *  - +a: signo positivo (no modifica, solo confirma el valor).
+ *  - -a: negación aritmética (invierte el signo).
+ *  - ++a (pre-incremento): incrementa a en 1, LUEGO devuelve el nuevo valor.
+ *  - a++ (post-incremento): devuelve el valor actual, LUEGO incrementa a en 1.
+ *  - --a / a-- (pre/post decremento): análogos pero restando 1.
+ *
+ *  SINTAXIS BÁSICA:
+ *  ----------------------------------
+ *  int a = 5;
+ *  int b = ++a; // a pasa a 6, b recibe 6
+ *  int c = a++; // c recibe 6, a pasa a 7
+ *
+ *  ERRORES COMUNES:
+ *  ----------------------------------
+ *  - No entender cuándo se aplica el incremento: en a++ la variable SÍ se modifica,
+ *    solo que el valor DEVUELTO es el antiguo. La variable termina incrementada.
+ *  - Usar post-incremento cuando necesitas el valor ya incrementado en la misma línea.
+ *
+ *  RECURSOS ADICIONALES:
+ *  ----------------------------------
+ *  - Documentación oficial: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html
+ * ============================================================
  */
 public class OperadoresUnitarios {
 

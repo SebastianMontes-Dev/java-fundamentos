@@ -1,26 +1,43 @@
 import java.util.Scanner;
 
 /**
- * Ejercicio: Sistema de descuento para clientes VIP.
+ * ============================================================
+ *  TEMA: Estructuras Condicionales en Java
+ *  SECCIÓN: 06 — Condicionales
+ *  ARCHIVO: SistemaDescuentoVip.java
+ * ============================================================
  *
- * El descuento se aplica únicamente cuando se cumplen DOS condiciones al mismo tiempo:
- *   1. El cliente ha comprado 10 o más artículos.
- *   2. El cliente tiene estado VIP activo.
+ *  ¿QUÉ APRENDERÁS EN ESTE ARCHIVO?
+ *  ----------------------------------
+ *  Implementarás un sistema de descuentos que solo se activa cuando se cumplen
+ *  DOS condiciones simultáneamente usando el operador lógico && (AND). Este es
+ *  el patrón clásico de "desbloqueo por múltiples requisitos" presente en
+ *  sistemas de fidelización, control de acceso y validación de formularios donde
+ *  TODOS los criterios deben satisfacerse para otorgar un beneficio.
  *
- * Concepto clave — operador lógico && (AND):
- *   Devuelve true solo si AMBAS condiciones son verdaderas.
- *   Si cualquiera de las dos es false, el resultado es false.
+ *  CONCEPTOS CLAVE:
+ *  ----------------------------------
+ *  - Operador lógico && (AND): true solo si AMBAS condiciones son true.
+ *  - Operador relacional >= (mayor o igual): compara valores numéricos.
+ *  - nextBoolean(): lectura de valores true/false desde consola.
+ *  - Tabla de verdad del operador &&: true&&true=true, el resto es false.
  *
- *   Tabla de verdad:
- *     true  && true  = true   → descuento aplicado
- *     true  && false = false  → sin descuento
- *     false && true  = false  → sin descuento
- *     false && false = false  → sin descuento
+ *  SINTAXIS BÁSICA:
+ *  ----------------------------------
+ *  boolean aplicaDescuento = (articulos >= 10) && (esClienteVip);
+ *  if (aplicaDescuento) {
+ *      System.out.println("Descuento aplicado");
+ *  }
  *
- * Conceptos practicados:
- *   - Operador lógico && (AND).
- *   - Operador relacional >= (mayor o igual).
- *   - Lectura de enteros y booleanos con Scanner.
+ *  ERRORES COMUNES:
+ *  ----------------------------------
+ *  - Usar un solo & (AND bit a bit) en vez de && (AND lógico con cortocircuito).
+ *  - Escribir `if (esVip == true)` en vez de `if (esVip)` (redundante).
+ *
+ *  RECURSOS ADICIONALES:
+ *  ----------------------------------
+ *  - Documentación oficial: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html
+ * ============================================================
  */
 public class SistemaDescuentoVip {
 

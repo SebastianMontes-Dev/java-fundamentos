@@ -2,19 +2,42 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- * Ejercicio: Generador de ID único de usuario.
+ * ============================================================
+ *  TEMA: Ejercicios Aplicados en Java
+ *  SECCIÓN: 02 — Ejercicios
+ *  ARCHIVO: GeneradorIdUsuario.java
+ * ============================================================
  *
- * El programa construye un identificador combinando:
- *   - Las 2 primeras letras del nombre (en mayúsculas).
- *   - Las 2 primeras letras del apellido (en mayúsculas).
- *   - Los 2 últimos dígitos del año de nacimiento.
- *   - Un número aleatorio de 4 dígitos.
+ *  ¿QUÉ APRENDERÁS EN ESTE ARCHIVO?
+ *  ----------------------------------
+ *  Implementarás un generador de ID único que combina manipulación de cadenas,
+ *  números aleatorios y entrada de usuario. Extraerás iniciales con substring(),
+ *  normalizarás texto con toUpperCase() y añadirás entropía con Random. Este
+ *  patrón se usa en sistemas de matrículas, códigos de empleado y generación
+ *  de identificadores únicos en aplicaciones reales.
  *
- * Conceptos practicados:
- *   - substring() para extraer porciones de una cadena.
- *   - toUpperCase() para normalizar a mayúsculas.
- *   - Random.nextInt() para generar un valor aleatorio.
- *   - Formateo del ID con guiones para legibilidad.
+ *  CONCEPTOS CLAVE:
+ *  ----------------------------------
+ *  - substring(inicio, fin): extrae las primeras letras del nombre y apellido.
+ *  - toUpperCase(): normaliza las iniciales a mayúsculas.
+ *  - Random.nextInt(limite): genera un número aleatorio entre 0 y limite-1.
+ *  - Formateo con guiones: construye un ID legible concatenando partes.
+ *
+ *  SINTAXIS BÁSICA:
+ *  ----------------------------------
+ *  String iniciales = nombre.toUpperCase().substring(0, 2);
+ *  int aleatorio = new Random().nextInt(10000);
+ *  String id = iniciales + "-" + aleatorio;
+ *
+ *  ERRORES COMUNES:
+ *  ----------------------------------
+ *  - No validar que el nombre/apellido tengan al menos 2 caracteres.
+ *  - Usar substring sin verificar la longitud antes → StringIndexOutOfBoundsException.
+ *
+ *  RECURSOS ADICIONALES:
+ *  ----------------------------------
+ *  - Documentación oficial: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Random.html
+ * ============================================================
  */
 public class GeneradorIdUsuario {
 

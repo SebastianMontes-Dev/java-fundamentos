@@ -1,15 +1,41 @@
 import java.util.Scanner;
 
 /**
- * Ejercicio: Registro de receta de cocina.
+ * ============================================================
+ *  TEMA: Ejercicios Aplicados en Java
+ *  SECCIÓN: 02 — Ejercicios
+ *  ARCHIVO: RegistroReceta.java
+ * ============================================================
  *
- * El programa solicita los datos de una receta (nombre, ingredientes,
- * tiempo de preparación y dificultad) y los muestra formateados.
+ *  ¿QUÉ APRENDERÁS EN ESTE ARCHIVO?
+ *  ----------------------------------
+ *  Implementarás un registro de recetas de cocina usando entrada por consola.
+ *  Capturarás campos de texto, un valor numérico decimal (tiempo de preparación)
+ *  y una clasificación (dificultad). Es un Excelente ejercicio para practicar
+ *  la combinación de diferentes tipos de datos en una aplicación de formulario,
+ *  similar a los CRUD que construirás en aplicaciones web o de escritorio.
  *
- * Conceptos practicados:
- *   - Lectura de cadenas con Scanner.nextLine().
- *   - Conversión de String a double con Double.parseDouble().
- *   - Formateo de salida con \t (tabulador) y \n (salto de línea).
+ *  CONCEPTOS CLAVE:
+ *  ----------------------------------
+ *  - nextLine(): lectura de cualquier cantidad de texto hasta el Enter.
+ *  - Double.parseDouble(): conversión de texto a número decimal.
+ *  - Secuencias de escape \t y \n para formatear la presentación de datos.
+ *
+ *  SINTAXIS BÁSICA:
+ *  ----------------------------------
+ *  String nombre = sc.nextLine();
+ *  double tiempo = Double.parseDouble(sc.nextLine());
+ *  System.out.println("\tNombre: " + nombre);
+ *
+ *  ERRORES COMUNES:
+ *  ----------------------------------
+ *  - Usar nextDouble() y luego nextLine() sin consumir el salto de línea sobrante.
+ *  - No validar que el tiempo ingresado sea un número positivo.
+ *
+ *  RECURSOS ADICIONALES:
+ *  ----------------------------------
+ *  - Documentación oficial: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Scanner.html
+ * ============================================================
  */
 public class RegistroReceta {
 

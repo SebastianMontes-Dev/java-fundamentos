@@ -1,23 +1,41 @@
 import java.util.Scanner;
 
 /**
- * Ejercicio: Validación de rango con operadores lógicos y relacionales.
+ * ============================================================
+ *  TEMA: Estructuras Condicionales en Java
+ *  SECCIÓN: 06 — Condicionales
+ *  ARCHIVO: ValidacionRango.java
+ * ============================================================
  *
- * El programa determina si un número ingresado por el usuario se encuentra
- * dentro del rango cerrado [0, 5].
+ *  ¿QUÉ APRENDERÁS EN ESTE ARCHIVO?
+ *  ----------------------------------
+ *  Validarás si un número se encuentra dentro de un rango específico combinando
+ *  operadores relacionales (>=, <=) con el operador lógico && (AND). Usarás
+ *  constantes `final` para definir los límites (buena práctica que evita
+ *  "números mágicos"), e inferencia de tipos con `var`. Es el patrón clásico
+ *  de validación de formularios, rangos de edad, calificaciones y filtros.
  *
- * Conceptos practicados:
- *   - Constantes con final para definir límites inmutables.
- *   - Operadores relacionales: >= (mayor o igual), <= (menor o igual).
- *   - Operador lógico && (AND): devuelve true solo si AMBAS condiciones son verdaderas.
- *   - Inferencia de tipo con var.
- *   - Lectura de enteros con Scanner.
+ *  CONCEPTOS CLAVE:
+ *  ----------------------------------
+ *  - final: declara constantes cuyo valor no puede cambiar (límites del rango).
+ *  - Operadores relacionales: >= (mayor o igual), <= (menor o igual).
+ *  - Operador lógico && (AND): ambas condiciones deben ser true.
+ *  - Inferencia con var: el compilador deduce el tipo automáticamente.
  *
- * Tabla de verdad del operador &&:
- *   true  && true  = true
- *   true  && false = false
- *   false && true  = false
- *   false && false = false
+ *  SINTAXIS BÁSICA:
+ *  ----------------------------------
+ *  final int MIN = 0, MAX = 5;
+ *  var estaEnRango = (numero >= MIN) && (numero <= MAX);
+ *
+ *  ERRORES COMUNES:
+ *  ----------------------------------
+ *  - Usar operadores incorrectos: para rango CERRADO [0,5] se usa >= y <= (no > y <).
+ *  - No usar constantes (números mágicos): si el límite cambia, hay que buscarlo en todo el código.
+ *
+ *  RECURSOS ADICIONALES:
+ *  ----------------------------------
+ *  - Documentación oficial: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html
+ * ============================================================
  */
 public class ValidacionRango {
 

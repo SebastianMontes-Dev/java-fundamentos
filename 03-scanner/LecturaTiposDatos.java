@@ -1,22 +1,44 @@
 import java.util.Scanner;
 
 /**
- * Ejercicio: Lectura de distintos tipos de datos desde consola.
+ * ============================================================
+ *  TEMA: Entrada de Datos por Consola con Scanner
+ *  SECCIÓN: 03 — Scanner
+ *  ARCHIVO: LecturaTiposDatos.java
+ * ============================================================
  *
- * Scanner ofrece métodos específicos para cada tipo de dato.
- * Este programa demuestra dos enfoques para leer valores:
+ *  ¿QUÉ APRENDERÁS EN ESTE ARCHIVO?
+ *  ----------------------------------
+ *  Scanner tiene métodos especializados para cada tipo de dato primitivo:
+ *  nextInt(), nextDouble(), nextBoolean(), nextLine(), etc. Aprenderás dos enfoques:
+ *  el directo (más corto) y el robusto con nextLine() + parseo (evita el molesto
+ *  bug del salto de línea pendiente). Conocer ambos te ahorrará horas de debugging.
  *
- * Enfoque 1 — Métodos directos (más simples):
- *   - nextInt()    : lee un entero directamente.
- *   - nextDouble() : lee un decimal directamente.
+ *  CONCEPTOS CLAVE:
+ *  ----------------------------------
+ *  - nextInt() / nextDouble(): leen el tipo directamente (dejan \n pendiente).
+ *  - nextLine() adicional: consume el salto de línea que dejan los métodos numéricos.
+ *  - Integer.parseInt() / Double.parseDouble(): convierten String a número.
+ *  - Enfoque robusto: siempre leer con nextLine() y convertir manualmente.
  *
- * Enfoque 2 — Leer como String y convertir (más robusto):
- *   - nextLine() + Integer.parseInt() : evita problemas con el salto de línea pendiente.
+ *  SINTAXIS BÁSICA:
+ *  ----------------------------------
+ *  // Enfoque directo (más simple pero con precaución):
+ *  int edad = sc.nextInt();
+ *  sc.nextLine(); // consumir salto de línea
  *
- * Conceptos practicados:
- *   - Lectura con nextInt(), nextDouble() y nextLine().
- *   - Uso de nextLine() adicional para consumir el salto de línea.
- *   - Conversión de String a entero con Integer.parseInt().
+ *  // Enfoque robusto:
+ *  int edad = Integer.parseInt(sc.nextLine());
+ *
+ *  ERRORES COMUNES:
+ *  ----------------------------------
+ *  - Usar nextInt() y luego nextLine() sin consumir el \n: el nextLine() lee vacío.
+ *  - Intentar leer un double con nextInt() o viceversa: InputMismatchException.
+ *
+ *  RECURSOS ADICIONALES:
+ *  ----------------------------------
+ *  - Documentación oficial: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Scanner.html
+ * ============================================================
  */
 public class LecturaTiposDatos {
 

@@ -1,20 +1,43 @@
 import java.util.Scanner;
 
 /**
- * Ejercicio: Ticket de venta con cálculo de impuesto.
+ * ============================================================
+ *  TEMA: Operadores en Java
+ *  SECCIÓN: 05 — Operadores
+ *  ARCHIVO: TicketVenta.java
+ * ============================================================
  *
- * El programa solicita el precio de tres productos, calcula el subtotal
- * y añade un impuesto calculado con el operador módulo para demostrar
- * su aplicación en un contexto práctico.
+ *  ¿QUÉ APRENDERÁS EN ESTE ARCHIVO?
+ *  ----------------------------------
+ *  Simularás un ticket de venta que calcula subtotales, impuestos y totales usando
+ *  operadores aritméticos en un contexto de negocio real. Leerás precios desde
+ *  consola, los acumularás con suma (+) y aplicarás el operador módulo (%)
+ *  para calcular un impuesto ficticio. Ideal para entender cómo los operadores
+ *  trabajan juntos en aplicaciones del mundo real.
  *
- * Conceptos practicados:
- *   - Lectura de valores decimales con Scanner.nextDouble().
- *   - Operador de suma (+) para acumular el subtotal.
- *   - Operador módulo (%) aplicado a doubles para obtener el residuo.
- *   - Formateo básico de salida con println.
+ *  CONCEPTOS CLAVE:
+ *  ----------------------------------
+ *  - nextDouble(): lectura de valores decimales desde consola.
+ *  - Operador suma (+): acumula precios para obtener el subtotal.
+ *  - Operador módulo (%): obtiene el residuo de una división (útil para cálculos periódicos).
+ *  - printf() con %f: formateo de salida con dos decimales.
  *
- * Nota: en un sistema real el impuesto se calcularía con un porcentaje fijo
- * (ej. total * 0.16). Aquí se usa % para ilustrar su funcionamiento con doubles.
+ *  SINTAXIS BÁSICA:
+ *  ----------------------------------
+ *  double subtotal = precio1 + precio2 + precio3;
+ *  double impuesto = subtotal % 10;
+ *  double total = subtotal + impuesto;
+ *  System.out.printf("Total: $%.2f%n", total);
+ *
+ *  ERRORES COMUNES:
+ *  ----------------------------------
+ *  - No consumir el salto de línea tras leer doubles si luego se usa nextLine().
+ *  - Usar % para calcular porcentajes directamente (% no es porcentaje, es residuo).
+ *
+ *  RECURSOS ADICIONALES:
+ *  ----------------------------------
+ *  - Documentación oficial: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html
+ * ============================================================
  */
 public class TicketVenta {
 

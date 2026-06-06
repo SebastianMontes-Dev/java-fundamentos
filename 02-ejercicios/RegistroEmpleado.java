@@ -1,16 +1,42 @@
 import java.util.Scanner;
 
 /**
- * Ejercicio: Registro de datos de un empleado.
+ * ============================================================
+ *  TEMA: Ejercicios Aplicados en Java
+ *  SECCIÓN: 02 — Ejercicios
+ *  ARCHIVO: RegistroEmpleado.java
+ * ============================================================
  *
- * El programa solicita al usuario los datos de un empleado (nombre, edad,
- * salario y si es jefe de departamento) y los muestra formateados en consola.
+ *  ¿QUÉ APRENDERÁS EN ESTE ARCHIVO?
+ *  ----------------------------------
+ *  Crearás un formulario de registro de empleados por consola que captura
+ *  diferentes tipos de datos: texto (nombre), entero (edad), decimal (salario)
+ *  y booleano (es jefe). Aprenderás a convertir Strings a tipos numéricos con
+ *  los métodos parse de las clases envolventes (wrapper classes) y a formatear
+ *  la salida de manera profesional con tabuladores.
  *
- * Conceptos practicados:
- *   - Lectura de distintos tipos con Scanner.
- *   - Conversión con Integer.parseInt(), Double.parseDouble(), Boolean.parseBoolean().
- *   - Uso de \t (tabulador) para alinear la salida.
- *   - Uso de \n (salto de línea) para separar secciones.
+ *  CONCEPTOS CLAVE:
+ *  ----------------------------------
+ *  - Integer.parseInt(String): convierte texto a entero.
+ *  - Double.parseDouble(String): convierte texto a decimal de doble precisión.
+ *  - Boolean.parseBoolean(String): convierte texto a booleano.
+ *  - Secuencias de escape \t (tabulador) y \n (salto de línea) para formatear salida.
+ *
+ *  SINTAXIS BÁSICA:
+ *  ----------------------------------
+ *  int edad = Integer.parseInt(sc.nextLine());
+ *  double salario = Double.parseDouble(sc.nextLine());
+ *  System.out.println("\tNombre: " + nombre);
+ *
+ *  ERRORES COMUNES:
+ *  ----------------------------------
+ *  - Intentar convertir texto no numérico con parseInt: lanza NumberFormatException.
+ *  - Usar sc.nextInt() y luego sc.nextLine() sin limpiar el buffer.
+ *
+ *  RECURSOS ADICIONALES:
+ *  ----------------------------------
+ *  - Documentación oficial: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Integer.html
+ * ============================================================
  */
 public class RegistroEmpleado {
 

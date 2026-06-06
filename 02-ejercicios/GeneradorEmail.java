@@ -1,16 +1,41 @@
 /**
- * Ejercicio: Generador de correo corporativo.
+ * ============================================================
+ *  TEMA: Ejercicios Aplicados en Java
+ *  SECCIÓN: 02 — Ejercicios
+ *  ARCHIVO: GeneradorEmail.java
+ * ============================================================
  *
- * A partir del nombre del empleado, la empresa y el dominio,
- * el programa construye automáticamente una dirección de correo corporativo.
+ *  ¿QUÉ APRENDERÁS EN ESTE ARCHIVO?
+ *  ----------------------------------
+ *  Aplicarás métodos de manipulación de cadenas para construir automáticamente
+ *  un correo electrónico corporativo a partir del nombre del empleado y la empresa.
+ *  Combina strip(), toLowerCase() y replace() en un flujo de transformación de
+ *  texto similar al que usarías en sistemas de onboarding, generación de cuentas
+ *  y normalización de datos en entornos empresariales.
  *
- * Formato generado: nombre.apellido@empresa.dominio
+ *  CONCEPTOS CLAVE:
+ *  ----------------------------------
+ *  - strip(): elimina espacios en blanco al inicio y final (versión moderna de trim()).
+ *  - toLowerCase(): normaliza todo el texto a minúsculas para el formato de correo.
+ *  - replace(): sustituye espacios por puntos o los elimina según la parte del correo.
+ *  - Concatenación de cadenas: unir partes para formar el correo final.
  *
- * Conceptos practicados:
- *   - strip()      : elimina espacios al inicio y al final.
- *   - toLowerCase(): convierte todo a minúsculas.
- *   - replace()    : reemplaza espacios por puntos (en nombre) o los elimina (en empresa).
- *   - Concatenación de cadenas para armar el correo final.
+ *  SINTAXIS BÁSICA:
+ *  ----------------------------------
+ *  String correo = nombre.strip().toLowerCase().replace(" ", ".")
+ *                  + "@" + empresa.strip().toLowerCase().replace(" ", "")
+ *                  + "." + dominio;
+ *
+ *  ERRORES COMUNES:
+ *  ----------------------------------
+ *  - Mezclar trim() y strip(): en Java 11+ prefiere strip() (maneja Unicode).
+ *  - Olvidar normalizar a minúsculas: los correos electrónicos no distinguen mayúsculas,
+ *    pero es buena práctica estandarizarlos.
+ *
+ *  RECURSOS ADICIONALES:
+ *  ----------------------------------
+ *  - Documentación oficial: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+ * ============================================================
  */
 public class GeneradorEmail {
 
