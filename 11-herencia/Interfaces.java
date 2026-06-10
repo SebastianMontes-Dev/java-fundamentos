@@ -58,7 +58,9 @@ public class Interfaces {
 
         System.out.println("\n--- Demostración de la interfaz Nadador ---");
         hacerNadar(pez);     // solo Pez implementa Nadador
-        hacerNadar(pajaro);  // Pajaro NO implementa Nadador → no hace nada
+
+        // ERROR de compilación si se descomenta: Pajaro NO implementa Nadador
+        // hacerNadar(pajaro);  // incompatible types: Pajaro cannot be converted to Nadador
 
         System.out.println("\n--- Un objeto puede implementar MÚLTIPLES interfaces ---");
         Pato pato = new Pato("Donald");
