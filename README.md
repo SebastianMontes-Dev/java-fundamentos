@@ -39,6 +39,11 @@ Si eres estudiante universitario de ingeniería informática, autodidacta o vien
 | 16 | [16-genericos](./16-genericos/) | Genéricos | 3 | Clases genéricas, métodos, comodines (wildcards), PECS |
 | 17 | [17-lambdas-streams](./17-lambdas-streams/) | Expresiones Lambda y Streams | 3 | Interfaces funcionales, filter, map, reduce |
 | 18 | [18-programacion-funcional](./18-programacion-funcional/) | Programación Funcional | 3 | Predicate, Function, referencias a métodos, composición |
+| 19 | [19-fechas-tiempo](./19-fechas-tiempo/) | Fechas y Tiempo | 3 | `LocalDate`, `LocalDateTime`, `DateTimeFormatter`, `Duration` |
+| 20 | [20-concurrencia](./20-concurrencia/) | Concurrencia y Multihilos | 3 | `Thread`, `Runnable`, `synchronized`, `CompletableFuture` |
+| 21 | [21-bases-de-datos](./21-bases-de-datos/) | Bases de Datos (JDBC) | 3 | `Connection`, `PreparedStatement`, `ResultSet`, transacciones |
+| 22 | [22-patrones-diseno](./22-patrones-diseno/) | Patrones de Diseño | 3 | Singleton, Factory, Builder |
+| 23 | [23-anotaciones-reflexion](./23-anotaciones-reflexion/) | Anotaciones y Reflexión | 3 | `@Retention`, `@Target`, API `Class`, métodos dinámicos |
 
 ---
 
@@ -94,6 +99,11 @@ Estudia las secciones en este orden. Cada una construye sobre lo aprendido en la
 16. **[16-genericos](./16-genericos/)** — Crea código reutilizable y seguro con tipos
 17. **[17-lambdas-streams](./17-lambdas-streams/)** — Escribe código conciso y procesa colecciones
 18. **[18-programacion-funcional](./18-programacion-funcional/)** — Domina funciones, predicados y composición
+19. **[19-fechas-tiempo](./19-fechas-tiempo/)** — Maneja de forma moderna fechas, horas y zonas horarias
+20. **[20-concurrencia](./20-concurrencia/)** — Ejecuta múltiples tareas a la vez sin errores
+21. **[21-bases-de-datos](./21-bases-de-datos/)** — Conecta tu código con bases de datos usando JDBC
+22. **[22-patrones-diseno](./22-patrones-diseno/)** — Resuelve problemas comunes con arquitectura probada
+23. **[23-anotaciones-reflexion](./23-anotaciones-reflexion/)** — Entiende la "magia" detrás de frameworks como Spring Boot
 
 ---
 
@@ -117,6 +127,11 @@ Estudia las secciones en este orden. Cada una construye sobre lo aprendido en la
 - [x] Tipos Genéricos, métodos genéricos y comodines (Wildcards)
 - [x] Expresiones Lambda y API Streams (filter, map, reduce)
 - [x] Programación Funcional en Java (Interfaces funcionales, referencias de métodos)
+- [x] Manejo de Fechas y Tiempos con API `java.time`
+- [x] Concurrencia, hilos, sincronización y programación asíncrona
+- [x] Conexión a bases de datos con JDBC, CRUD y Transacciones
+- [x] Patrones de Diseño Creacionales (Singleton, Factory, Builder)
+- [x] Creación de Anotaciones Personalizadas y uso de API de Reflexión
 - [x] Buenas prácticas: PascalCase, camelCase, nombres descriptivos, cierre de recursos
 
 ---
