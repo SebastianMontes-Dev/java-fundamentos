@@ -35,6 +35,10 @@ Si eres estudiante universitario de ingeniería informática, autodidacta o vien
 | 12 | [12-excepciones](./12-excepciones/) | Excepciones | 5 | `try-catch`, múltiples `catch`, `finally`, excepciones personalizadas, `throws` |
 | 13 | [13-colecciones](./13-colecciones/) | Colecciones | 5 | `ArrayList`, `HashMap`, `LinkedList`, `Iterator`, `HashSet` |
 | 14 | [14-archivos](./14-archivos/) | Archivos | 3 | `File`, `Scanner` con archivos, `FileWriter`, `BufferedReader` |
+| 15 | [15-enums](./15-enums/) | Enums | 3 | Declaración, atributos, constructores, switch |
+| 16 | [16-genericos](./16-genericos/) | Genéricos | 3 | Clases genéricas, métodos, comodines (wildcards), PECS |
+| 17 | [17-lambdas-streams](./17-lambdas-streams/) | Expresiones Lambda y Streams | 3 | Interfaces funcionales, filter, map, reduce |
+| 18 | [18-programacion-funcional](./18-programacion-funcional/) | Programación Funcional | 3 | Predicate, Function, referencias a métodos, composición |
 
 ---
 
@@ -86,6 +90,10 @@ Estudia las secciones en este orden. Cada una construye sobre lo aprendido en la
 12. **[12-excepciones](./12-excepciones/)** — Escribe código robusto que no crashea
 13. **[13-colecciones](./13-colecciones/)** — Listas dinámicas, mapas, conjuntos
 14. **[14-archivos](./14-archivos/)** — Lee y escribe archivos en disco
+15. **[15-enums](./15-enums/)** — Representa conjuntos fijos de constantes
+16. **[16-genericos](./16-genericos/)** — Crea código reutilizable y seguro con tipos
+17. **[17-lambdas-streams](./17-lambdas-streams/)** — Escribe código conciso y procesa colecciones
+18. **[18-programacion-funcional](./18-programacion-funcional/)** — Domina funciones, predicados y composición
 
 ---
 
@@ -105,6 +113,10 @@ Estudia las secciones en este orden. Cada una construye sobre lo aprendido en la
 - [x] Manejo de excepciones (try-catch, finally, excepciones personalizadas)
 - [x] Colecciones (ArrayList, LinkedList, HashMap, HashSet)
 - [x] Lectura y escritura de archivos (FileWriter, BufferedReader)
+- [x] Enumeraciones (Enums) con atributos y métodos
+- [x] Tipos Genéricos, métodos genéricos y comodines (Wildcards)
+- [x] Expresiones Lambda y API Streams (filter, map, reduce)
+- [x] Programación Funcional en Java (Interfaces funcionales, referencias de métodos)
 - [x] Buenas prácticas: PascalCase, camelCase, nombres descriptivos, cierre de recursos
 
 ---

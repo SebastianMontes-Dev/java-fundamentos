@@ -54,6 +54,7 @@ public class ClasesPersonaPoo {
     int edad;
     double estatura;
 
+
     /**
      * Método que imprime en consola todos los datos de la persona.
      */
