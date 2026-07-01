@@ -33,15 +33,15 @@ Si eres estudiante universitario de ingeniería informática, autodidacta o vien
 | 10 | [10-metodos](./10-metodos/) | Métodos | 3 | Declaración, parámetros, `static`, `void`, invocación desde `main` |
 | 11 | [11-static-final](./11-static-final/) | Static y Final | 3 | Variables/métodos `static`, bloques, constantes `final` |
 | 12 | [12-utilidades-java](./12-utilidades-java/) | Utilidades de Java | 4 | `Math`, `Arrays`, `Collections`, `Character`, `System` — métodos que simplifican |
-| 13 | ⏳ Recursividad | Recursividad | 3 | Factorial, Fibonacci, Torres de Hanoi |
-| 14 | ⏳ Arrays 2D | Matrices (Arrays 2D) | 3 | Declaración, recorrido, operaciones, arrays escalonados |
+| 13 | [13-recursividad](./13-recursividad/) | Recursividad | 3 | Factorial, Fibonacci, Torres de Hanoi |
+| 14 | [14-arrays-2d](./14-arrays-2d/) | Matrices (Arrays 2D) | 3 | Declaración, recorrido, operaciones, arrays escalonados |
 | 15 | [15-poo-basica](./15-poo-basica/) | POO Básica | 9 | Clases, objetos, constructores, `this`, encapsulamiento, getters/setters |
 | 16 | [16-herencia](./16-herencia/) | Herencia y Polimorfismo | 5 | `extends`, `@Override`, polimorfismo, interfaces, clases abstractas |
-| 17 | ⏳ Clases Internas | Clases Internas | 3 | Static nested, inner classes, anónimas y locales |
+| 17 | [17-clases-internas](./17-clases-internas/) | Clases Internas | 3 | Static nested, inner classes, anónimas y locales |
 | 18 | [18-excepciones](./18-excepciones/) | Excepciones | 5 | `try-catch`, múltiples `catch`, `finally`, excepciones personalizadas, `throws` |
 | 19 | [19-colecciones](./19-colecciones/) | Colecciones | 5 | `ArrayList`, `HashMap`, `LinkedList`, `Iterator`, `HashSet` |
-| 20 | ⏳ StringBuilder y Regex | StringBuilder y Regex | 3 | `append()`, `insert()`, `Pattern`, `Matcher` |
-| 21 | ⏳ Ordenamiento | Ordenamiento y Optional | 3 | `Comparable`, `Comparator`, `Optional<T>` |
+| 20 | [20-stringbuilder-regex](./20-stringbuilder-regex/) | StringBuilder y Regex | 3 | `append()`, `insert()`, `Pattern`, `Matcher` |
+| 21 | [21-ordenamiento-objetos](./21-ordenamiento-objetos/) | Ordenamiento y Optional | 3 | `Comparable`, `Comparator`, `Optional<T>` |
 | 22 | [22-archivos](./22-archivos/) | Archivos | 3 | `File`, `Scanner` con archivos, `FileWriter`, `BufferedReader` |
 | 23 | [23-enums](./23-enums/) | Enums | 3 | Declaración, atributos, constructores, switch |
 | 24 | [24-genericos](./24-genericos/) | Genéricos | 3 | Clases genéricas, métodos, comodines (wildcards), PECS |
@@ -103,15 +103,15 @@ Estudia las secciones en este orden. Cada una construye sobre lo aprendido en la
 10. **[10-metodos](./10-metodos/)** — Organiza tu código en bloques reutilizables
 11. **[11-static-final](./11-static-final/)** — Variables de clase, constantes y bloques static
 12. **[12-utilidades-java](./12-utilidades-java/)** — Math, Arrays, Collections: los atajos que todo dev debe conocer
-13. **⏳ Recursividad** — Resuelve problemas con funciones que se llaman a sí mismas
-14. **⏳ Arrays 2D** — Matrices, tablas y arrays multidimensionales
+13. **[13-recursividad](./13-recursividad/)** — Resuelve problemas con funciones que se llaman a sí mismas
+14. **[14-arrays-2d](./14-arrays-2d/)** — Matrices, tablas y arrays multidimensionales
 15. **[15-poo-basica](./15-poo-basica/)** — Clases, objetos, constructores y encapsulamiento
 16. **[16-herencia](./16-herencia/)** — Herencia, polimorfismo, interfaces y clases abstractas
-17. **⏳ Clases Internas** — Clases dentro de clases: static, miembro, anónimas
+17. **[17-clases-internas](./17-clases-internas/)** — Clases dentro de clases: static, miembro, anónimas
 18. **[18-excepciones](./18-excepciones/)** — Escribe código robusto que no crashea
 19. **[19-colecciones](./19-colecciones/)** — Listas dinámicas, mapas, conjuntos
-20. **⏳ StringBuilder y Regex** — Concatenación eficiente y expresiones regulares
-21. **⏳ Ordenamiento** — Comparable, Comparator y Optional para evitar nulls
+20. **[20-stringbuilder-regex](./20-stringbuilder-regex/)** — Concatenación eficiente y expresiones regulares
+21. **[21-ordenamiento-objetos](./21-ordenamiento-objetos/)** — Comparable, Comparator y Optional para evitar nulls
 22. **[22-archivos](./22-archivos/)** — Lee y escribe archivos en disco
 23. **[23-enums](./23-enums/)** — Representa conjuntos fijos de constantes
 24. **[24-genericos](./24-genericos/)** — Crea código reutilizable y seguro con tipos
@@ -140,16 +140,16 @@ Estudia las secciones en este orden. Cada una construye sobre lo aprendido en la
 - [x] Métodos, parámetros, retorno y sobrecarga
 - [x] Static, final, bloques de inicialización y constantes
 - [x] Clases utilitarias: Math, Arrays, Collections, Character, System
-- [ ] Recursividad: factorial, Fibonacci, Torres de Hanoi
-- [ ] Arreglos bidimensionales (matrices) y arrays escalonados
+- [x] Recursividad: factorial, Fibonacci, Torres de Hanoi
+- [x] Arreglos bidimensionales (matrices) y arrays escalonados
 - [x] Programación Orientada a Objetos: clases, objetos, constructores, this, encapsulamiento
 - [x] Herencia, sobrescritura (@Override), polimorfismo
 - [x] Interfaces y clases abstractas
-- [ ] Clases internas: static nested, miembro, anónimas, locales
+- [x] Clases internas: static nested, miembro, anónimas, locales
 - [x] Manejo de excepciones (try-catch, finally, excepciones personalizadas)
 - [x] Colecciones (ArrayList, LinkedList, HashMap, HashSet)
-- [ ] StringBuilder, StringBuffer y expresiones regulares (Regex)
-- [ ] Comparable, Comparator y Optional&lt;T&gt;
+- [x] StringBuilder, StringBuffer y expresiones regulares (Regex)
+- [x] Comparable, Comparator y Optional&lt;T&gt;
 - [x] Lectura y escritura de archivos (FileWriter, BufferedReader)
 - [x] Enumeraciones (Enums) con atributos y métodos
 - [x] Tipos Genéricos, métodos genéricos y comodines (Wildcards)
