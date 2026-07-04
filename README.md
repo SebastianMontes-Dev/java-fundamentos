@@ -201,6 +201,43 @@ Estudia las secciones en este orden. Cada una construye sobre lo aprendido en la
 
 ---
 
+## 🇬🇧 English Summary
+
+**Java Fundamentals** is the definitive hands-on guide to learning Java from zero. 33 progressive sections, 120+ self-contained `.java` files, 25 exercises with solutions — all in Spanish with pedagogical Javadoc headers.
+
+### What makes this repo different
+
+| Feature | java-fundamentos | Other repos |
+|---------|:---:|:---:|
+| Self-contained files (no Maven/Gradle needed) | Unique | |
+| Pedagogical Javadoc in every file | Unique | |
+| Professional tips in every section | Unique | |
+| Common mistakes documented before you make them | Unique | |
+| Modern Java coverage (var, records, sealed, switch expr) | | Rare |
+| Testing section (JUnit 5) | | Rare |
+| Utilities deep-dive (Math, Arrays, Collections) | Unique | |
+| 25 exercises with solutions (3 difficulty levels) | | |
+| CI/CD (GitHub Actions) | | |
+| GitHub Pages | | |
+
+### Learning Path
+
+| Level | Sections | Topics |
+|-------|----------|--------|
+| **Basics** (01-12) | 12 | Types, Strings, Scanner, Operators, Conditionals, Loops, Arrays, Methods, Static/Final, Java Utilities |
+| **Intermediate** (13-24) | 12 | Recursion, 2D Arrays, OOP, Inheritance, Inner Classes, Exceptions, Collections, StringBuilder, Comparable, Files, Enums, Generics |
+| **Advanced** (25-33) | 9 | Lambdas & Streams, Functional Programming, Date/Time, Concurrency, JDBC, Design Patterns, Annotations, Modern Java, Testing |
+
+### Requirements
+
+Java 17+, no build tools required. Just `javac` and `java`.
+
+### Author
+
+Created and maintained by **[SebastianMontes-Dev](https://github.com/SebastianMontes-Dev)**.
+
+---
+
 ## Requisitos
 
 | Componente | Versión Mínima | Enlace |
