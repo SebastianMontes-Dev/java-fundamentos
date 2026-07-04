@@ -52,8 +52,8 @@ Si eres estudiante universitario de ingeniería informática, autodidacta o vien
 | 29 | [29-bases-de-datos](./29-bases-de-datos/) | Bases de Datos (JDBC) | 3 | `Connection`, `PreparedStatement`, `ResultSet`, transacciones |
 | 30 | [30-patrones-diseno](./30-patrones-diseno/) | Patrones de Diseño | 3 | Singleton, Factory, Builder |
 | 31 | [31-anotaciones-reflexion](./31-anotaciones-reflexion/) | Anotaciones y Reflexión | 3 | `@Retention`, `@Target`, API `Class`, métodos dinámicos |
-| 32 | ⏳ Java Moderno | Java Moderno (14-17) | 4 | `var`, switch expressions, text blocks, records, pattern matching |
-| 33 | ⏳ Testing | Testing con JUnit | 3 | `@Test`, assertions, parametrizados |
+| 32 | [32-java-moderno](./32-java-moderno/) | Java Moderno (14-17) | 4 | `var`, switch expressions, text blocks, records, pattern matching |
+| 33 | [33-testing-basico](./33-testing-basico/) | Testing con JUnit | 3 | `@Test`, assertions, parametrizados |
 
 ---
 
@@ -122,8 +122,8 @@ Estudia las secciones en este orden. Cada una construye sobre lo aprendido en la
 29. **[29-bases-de-datos](./29-bases-de-datos/)** — Conecta tu código con bases de datos usando JDBC
 30. **[30-patrones-diseno](./30-patrones-diseno/)** — Resuelve problemas comunes con arquitectura probada
 31. **[31-anotaciones-reflexion](./31-anotaciones-reflexion/)** — Entiende la "magia" detrás de frameworks como Spring Boot
-32. **⏳ Java Moderno** — var, switch expressions, records, text blocks
-33. **⏳ Testing con JUnit** — Escribe pruebas unitarias como un profesional
+32. **[32-java-moderno](./32-java-moderno/)** — var, switch expressions, records, text blocks
+33. **[33-testing-basico](./33-testing-basico/)** — Escribe pruebas unitarias como un profesional
 
 ---
 
@@ -160,8 +160,8 @@ Estudia las secciones en este orden. Cada una construye sobre lo aprendido en la
 - [x] Conexión a bases de datos con JDBC, CRUD y Transacciones
 - [x] Patrones de Diseño Creacionales (Singleton, Factory, Builder)
 - [x] Creación de Anotaciones Personalizadas y uso de API de Reflexión
-- [ ] Java Moderno: var, switch expressions, text blocks, records, pattern matching
-- [ ] Testing con JUnit 5
+- [x] Java Moderno: var, switch expressions, text blocks, records, pattern matching
+- [x] Testing con JUnit 5
 - [x] Buenas prácticas: PascalCase, camelCase, nombres descriptivos, cierre de recursos
 
 ---
