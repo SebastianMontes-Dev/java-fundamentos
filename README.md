@@ -5,6 +5,7 @@
 [![Java 17+](https://img.shields.io/badge/Java-17%2B-orange?style=flat-square&logo=openjdk&logoColor=white)](https://adoptium.net/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square)](https://github.com/SebastianMontes-Dev/java-fundamentos/pulls)
+[![Web](https://img.shields.io/badge/Web-Visitar%20sitio-9cf?style=flat-square)](https://sebastianmontes-dev.github.io/java-fundamentos/)
 
 > La guía definitiva para aprender Java desde cero, construida con ejercicios reales y documentación en español. Cada archivo `.java` es una lección independiente que explica un concepto, su sintaxis, errores comunes y aplicación práctica. Pensada para principiantes que quieren un mapa claro y para universitarios que necesitan reforzar fundamentos con ejemplos que funcionan.
 
