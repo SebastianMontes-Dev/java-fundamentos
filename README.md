@@ -67,23 +67,23 @@ git clone https://github.com/SebastianMontes-Dev/java-fundamentos.git
 cd java-fundamentos
 
 # 2. Muévete a la sección que quieras estudiar
-cd 01-cadenas
+cd 01-tipos-primitivos
 
 # 3. Compila el archivo que te interese
-javac BuscarSubcadenas.java
+javac TiposPrimitivos.java
 
 # 4. Ejecútalo
-java BuscarSubcadenas
+java TiposPrimitivos
 ```
 
 ### Desde IntelliJ IDEA
 
 1. Abre IntelliJ y selecciona **File → Open**
 2. Navega hasta la carpeta `java-fundamentos` y ábrela
-3. En el panel izquierdo, expande la sección que quieras estudiar (ej: `01-cadenas`)
+3. En el panel izquierdo, expande la sección que quieras estudiar (ej: `01-tipos-primitivos`)
 4. Haz clic derecho sobre cualquier archivo `.java` y elige **Run 'NombreDelArchivo.main()'**
 
-Cada archivo es completamente independiente. No necesitas herramientas externas, Maven, Gradle ni dependencias adicionales. Solo Java 17+.
+Cada archivo es completamente independiente. Para las secciones 01-32 solo necesitas Java 17+. La sección 21 (JDBC) requiere el driver SQLite y la sección 33 (Testing) requiere JUnit 5 en el classpath. No se usa Maven, Gradle ni ningún build system — compila y ejecuta directamente con `javac` y `java`.
 
 ---
 
