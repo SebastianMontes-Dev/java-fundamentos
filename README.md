@@ -1,9 +1,10 @@
 # Java Fundamentos: Guía de Aprendizaje Práctica
 
-[![Java 17+](https://img.shields.io/badge/Java-17%2B-orange?logo=openjdk&logoColor=white)](https://adoptium.net/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Estado: En desarrollo activo](https://img.shields.io/badge/Estado-En%20desarrollo%20activo-brightgreen)]()
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-ff69b4.svg)](https://github.com/SebastianMontes-Dev/java-fundamentos/pulls)
+[![Build](https://img.shields.io/github/actions/workflow/status/SebastianMontes-Dev/java-fundamentos/compile.yml?style=flat-square&label=Compilaci%C3%B3n)](https://github.com/SebastianMontes-Dev/java-fundamentos/actions)
+[![Secciones](https://img.shields.io/badge/Secciones-33-blue?style=flat-square)](https://github.com/SebastianMontes-Dev/java-fundamentos#mapa-de-aprendizaje)
+[![Java 17+](https://img.shields.io/badge/Java-17%2B-orange?style=flat-square&logo=openjdk&logoColor=white)](https://adoptium.net/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square)](https://github.com/SebastianMontes-Dev/java-fundamentos/pulls)
 
 > La guía definitiva para aprender Java desde cero, construida con ejercicios reales y documentación en español. Cada archivo `.java` es una lección independiente que explica un concepto, su sintaxis, errores comunes y aplicación práctica. Pensada para principiantes que quieren un mapa claro y para universitarios que necesitan reforzar fundamentos con ejemplos que funcionan.
 
