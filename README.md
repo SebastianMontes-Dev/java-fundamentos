@@ -10,6 +10,40 @@
 
 ---
 
+## Ruta Visual de Aprendizaje
+
+```
+FUNDAMENTOS                  INTERMEDIO                   AVANZADO
+01 Tipos           ═══╗
+02 Strings              ║
+03 Scanner              ║      13 Recursividad    ═══╗
+04 Random               ║      14 Arrays 2D           ║
+05 Operadores           ║      15 POO Básica          ║
+06 Condicionales        ║      16 Herencia            ║
+07 Bucles               ║      17 Clases Internas     ║
+08 Ejercicios           ║      18 Excepciones         ║
+09 Arrays               ║      19 Colecciones         ║
+10 Métodos              ║      20 StringBuilder       ║
+11 Static y Final       ║      21 Ordenamiento        ║
+12 Utilidades Java      ║      22 Archivos            ║
+                        ║      23 Enums               ║
+                        ╚══════ 24 Genéricos           ║
+                                25 Lambdas y Streams   ║
+                                26 Prog. Funcional     ║
+                                27 Fechas y Tiempo     ║
+                                28 Concurrencia        ║
+                                29 Bases de Datos      ║
+                                30 Patrones Diseño     ║
+                                31 Anotaciones         ║
+                                32 Java Moderno        ║
+                                ╚══════════════════════ 33 Testing
+                                      + 25 Ejercicios
+```
+
+**Leyenda:** `══╗` = conexión a siguiente nivel  |  Cada sección ≈ 2-7 archivos `.java` auto-contenidos
+
+---
+
 ## ¿Para quién es esto?
 
 Estás empezando con Java y te pierdes entre tutoriales que asumen demasiado o son demasiado básicos. Este repositorio recorre el camino completo con 33 secciones: desde tipos primitivos y variables hasta Java moderno (records, pattern matching) y testing con JUnit. Cada sección contiene archivos listos para compilar y ejecutar, documentados línea por línea en español, como si tuvieras un mentor explicándote cada detalle.
