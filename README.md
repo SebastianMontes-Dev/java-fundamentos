@@ -2,6 +2,7 @@
 
 [![Build](https://img.shields.io/github/actions/workflow/status/SebastianMontes-Dev/java-fundamentos/compile.yml?style=flat-square&label=Compilaci%C3%B3n)](https://github.com/SebastianMontes-Dev/java-fundamentos/actions)
 [![Secciones](https://img.shields.io/badge/Secciones-33-blue?style=flat-square)](https://github.com/SebastianMontes-Dev/java-fundamentos#mapa-de-aprendizaje)
+[![Ejercicios](https://img.shields.io/badge/Ejercicios-25-orange?style=flat-square)](https://github.com/SebastianMontes-Dev/java-fundamentos/tree/main/99-ejercicios)
 [![Java 17+](https://img.shields.io/badge/Java-17%2B-orange?style=flat-square&logo=openjdk&logoColor=white)](https://adoptium.net/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square)](https://github.com/SebastianMontes-Dev/java-fundamentos/pulls)
