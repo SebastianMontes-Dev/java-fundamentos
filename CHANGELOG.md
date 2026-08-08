@@ -1,8 +1,8 @@
-# Changelog
+# Registro de Cambios
 
 Todas las versiones notables de Java Fundamentos están documentadas aquí.
 
-El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/).
+El formato sigue [Mantener un Registro de Cambios](https://keepachangelog.com/es-ES/1.0.0/).
 
 ---
 
@@ -10,30 +10,30 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/).
 
 ### Añadido
 
-- **33 secciones** de aprendizaje progresivo (01-tipos-primitivos → 33-testing-basico)
+- **33 secciones** de aprendizaje progresivo (01-tipos-primitivos → 33-pruebas-basicas)
 - **120+ archivos Java** auto-contenidos con Javadoc pedagógico en español
 - **Secciones nuevas** no presentes en ningún otro curso en español:
   - Utilidades de Java (Math, Arrays, Collections, Character, System)
-  - Java Moderno (var, switch expressions, text blocks, records, sealed classes)
-  - Testing con JUnit 5
+  - Java moderno (var, expresiones switch, bloques de texto, records, clases selladas)
+  - Pruebas con JUnit 5
   - Clases internas
-  - StringBuilder y Regex
+  - StringBuilder y expresiones regulares (Regex)
   - Ordenamiento y Optional
   - Recursividad
   - Arrays 2D
 - **25 ejercicios** en 3 niveles (básico, intermedio, avanzado) con soluciones
-- **GitHub Actions CI** — compilación automática de todos los archivos
-- **GitHub Pages** — sitio web desde el README
-- **Badges profesionales** (build, secciones, Java 17+, license, PRs)
-- **Tips profesionales** en cada README de sección
+- **Integración Continua (CI) con GitHub Actions** — compilación automática de todos los archivos
+- **Páginas de GitHub** — sitio web desde el README
+- **Insignias profesionales** (compilación, secciones, Java 17+, licencia, solicitudes de extracción)
+- **Consejos profesionales** en cada README de sección
 - **Errores comunes documentados** en cada archivo como prevención pedagógica
 - **CONTRIBUTING.md** y **CHANGELOG.md**
 - **README bilingüe** (español + inglés)
 
 ### Características
 
-- Zero dependencies: solo necesitas `javac` y `java`
-- Progresión completa: tipos primitivos → POO → colecciones → concurrencia → modern Java → testing
+- Cero dependencias: solo necesitas `javac` y `java`
+- Progresión completa: tipos primitivos → POO → colecciones → concurrencia → Java moderno → pruebas
 - Enfoque pedagógico: cada archivo enseña qué aprenderás, conceptos clave, sintaxis y errores comunes
 
 ---
@@ -43,7 +43,7 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/).
 ### Añadido
 
 - Versión inicial del repositorio
-- 23 secciones originales (cadenas → anotaciones-reflexión)
+- 23 secciones originales (cadenas de texto → anotaciones-reflexión)
 - 81 archivos Java
 - README principal con mapa de aprendizaje
 

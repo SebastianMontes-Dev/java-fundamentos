@@ -1,70 +1,75 @@
 <div align="center">
-  <h1>🚀 Enterprise Java Fundamentals</h1>
-  <p><strong>The definitive guide to learning Java from Zero to Silicon Valley Level</strong></p>
+  <h1>🚀 Fundamentos Empresariales de Java</h1>
+  <p><strong>La guía definitiva para aprender Java desde cero hasta un nivel profesional (Silicon Valley)</strong></p>
   
   <p>
     <a href="https://adoptium.net/"><img src="https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 17+"/></a>
-    <a href="https://github.com/SebastianMontes-Dev/java-fundamentos"><img src="https://img.shields.io/badge/Architecture-Self--Contained-blue?style=for-the-badge" alt="Architecture"/></a>
-    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License"/></a>
+    <a href="https://github.com/SebastianMontes-Dev/java-fundamentos"><img src="https://img.shields.io/badge/Arquitectura-Autocontenida-blue?style=for-the-badge" alt="Arquitectura"/></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/Licencia-MIT-yellow.svg?style=for-the-badge" alt="Licencia"/></a>
   </p>
 </div>
 
 ---
 
-## 🎯 About The Project
+## 🎯 Acerca del Proyecto
 
-Welcome to the **Enterprise Java Fundamentals**, a highly structured, scalable, and zero-configuration learning path designed for the modern engineer. This repository bridges the gap between basic tutorials and enterprise-level engineering by providing fully documented, ready-to-execute `.java` files that teach you everything from primitive types to modern Java features, design patterns, and unit testing.
+Bienvenido a **Fundamentos Empresariales de Java**, una ruta de aprendizaje estructurada, escalable y sin configuraciones, diseñada para el ingeniero moderno. Este repositorio acorta la brecha entre los tutoriales básicos y la ingeniería a nivel empresarial al proporcionar archivos `.java` completamente documentados y listos para ejecutar. Aquí aprenderás desde tipos primitivos hasta características modernas de Java, patrones de diseño y pruebas unitarias.
 
-### Why this repository?
-- **Zero Configuration:** No build tools (Maven, Gradle) required. Just standard `javac` and `java`.
-- **Pedagogical Architecture:** 33 progressive, self-contained sections designed to scale from absolute basics to advanced topics.
-- **Modern Standards:** Full coverage of modern Java (var, records, sealed classes, pattern matching) and testing principles (JUnit 5).
-
----
-
-## 🏗️ Architecture & Structure
-
-The repository is structured into three main competency levels, providing a clear map to mastery:
-
-### 🟢 Level 1: Foundations (01 - 12)
-Master the core language syntax, control structures, and essential Java APIs.
-*Types, Strings, Loops, Conditionals, Arrays, Methods, Static/Final, Java Utilities.*
-
-### 🟡 Level 2: Core Engineering (13 - 24)
-Dive deep into Object-Oriented Programming and robust software design.
-*OOP, Inheritance, Inner Classes, Exceptions, Collections API, File I/O, Generics.*
-
-### 🔴 Level 3: Advanced & Modern Java (25 - 33)
-Learn what is used in modern enterprise backends (Spring Boot, Microservices).
-*Lambdas & Streams, Functional Programming, Concurrency, JDBC, Design Patterns, Reflection, JUnit 5 Testing, Java 14-17 Features.*
+### ¿Por qué elegir este repositorio?
+- **Configuración Cero:** No se requieren herramientas de construcción (como Maven o Gradle). Solo el uso estándar de `javac` y `java`.
+- **Arquitectura Pedagógica:** 33 secciones progresivas y autocontenidas diseñadas para escalar desde los conceptos básicos absolutos hasta los temas más avanzados.
+- **Estándares Modernos:** Cobertura completa de características modernas de Java (`var`, `records`, clases selladas, coincidencia de patrones) y principios de pruebas (JUnit 5).
 
 ---
 
-## 🚀 Quick Start (Deployment)
+## 🏗️ Arquitectura y Estructura
 
-Getting up and running is frictionless. Follow these steps to start executing code in seconds.
+El repositorio está estructurado en tres niveles principales de competencia, proporcionando un mapa claro hacia el dominio del lenguaje:
 
-### 1. Prerequisites
-- **JDK 17 or higher** installed.
+### 🟢 Nivel 1: Fundamentos (01 - 12)
+Domina la sintaxis central del lenguaje, las estructuras de control y las API esenciales de Java.
+*Tipos, Cadenas de Texto, Ciclos, Condicionales, Arreglos, Métodos, Variables Estáticas/Finales, Utilidades de Java.*
 
-### 2. Clone the Repository
+### 🟡 Nivel 2: Ingeniería Central (13 - 24)
+Profundiza en la Programación Orientada a Objetos y en el diseño robusto de software.
+*POO, Herencia, Clases Internas, Excepciones, API de Colecciones, Entrada/Salida de Archivos, Genéricos.*
+
+### 🔴 Nivel 3: Java Avanzado y Moderno (25 - 33)
+Aprende lo que se utiliza en el desarrollo backend empresarial moderno (Spring Boot, Microservicios).
+*Expresiones Lambda y Streams, Programación Funcional, Concurrencia, JDBC, Patrones de Diseño, Reflexión, Pruebas con JUnit 5, Características de Java 14-17.*
+
+---
+
+## 🚀 Inicio Rápido (Despliegue)
+
+Ponerlo en marcha es muy sencillo. Sigue estos pasos para comenzar a ejecutar código en cuestión de segundos.
+
+### 1. Requisitos Previos
+- **JDK 17 o superior** instalado.
+
+### 2. Clonar el Repositorio
 ```bash
 git clone https://github.com/SebastianMontes-Dev/java-fundamentos.git
 cd java-fundamentos
 ```
 
-### 3. Run a Lesson
-Navigate to any lesson module and execute directly:
+### 3. Ejecutar una Lección
+Navega a cualquier módulo de lección y ejecuta directamente:
 ```bash
 cd 01-tipos-primitivos
 javac TiposPrimitivos.java
 java TiposPrimitivos
 ```
 
-> **Pro Tip:** Open the root directory in **IntelliJ IDEA** or **VS Code**, and you can run any file directly with a single click.
+> **💡 Consejo Profesional:** Abre el directorio raíz en **IntelliJ IDEA** o **VS Code**, y podrás ejecutar cualquier archivo directamente con un solo clic.
 
 ---
 
-## 🤝 Contribution & Maintenance
-Built and maintained by **SebastianMontes-Dev**. 
-This project is open-source (MIT). We welcome pull requests that align with our core philosophy: keeping files self-contained, heavily documented, and practical.
+## 🗺️ Hoja de Ruta (Roadmap)
+Consulta nuestro [ROADMAP.md](ROADMAP.md) para ver la planificación a corto, mediano y largo plazo de este proyecto.
+
+---
+
+## 🤝 Contribución y Mantenimiento
+Creado y mantenido por **SebastianMontes-Dev**. 
+Este proyecto es de código abierto (Licencia MIT). Agradecemos las solicitudes de extracción (pull requests) que se alineen con nuestra filosofía central: mantener los archivos autocontenidos, fuertemente documentados y prácticos.

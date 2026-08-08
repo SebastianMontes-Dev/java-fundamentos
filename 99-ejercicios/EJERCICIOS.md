@@ -11,7 +11,7 @@ Escribe un programa que pida una palabra al usuario y determine si es un palínd
 
 **Ejemplo:** "Reconocer" → true. "Hola" → false.
 
-**Conceptos:** Strings, `charAt()`, bucles, `Scanner`.
+**Conceptos:** Cadenas de texto, `charAt()`, bucles, `Scanner`.
 
 ---
 
@@ -31,7 +31,7 @@ Pide al usuario una frase y cuenta cuántas vocales (`a, e, i, o, u`) contiene. 
 
 **Ejemplo:** "Hola Mundo" → 4 vocales.
 
-**Conceptos:** Strings, `charAt()`, `Character.toLowerCase()`, contador.
+**Conceptos:** Cadenas de texto, `charAt()`, `Character.toLowerCase()`, contador.
 
 ---
 
@@ -88,17 +88,17 @@ Pide peso (kg) y altura (m). Calcula IMC = peso / (altura²). Clasifica según l
 
 ## Nivel Intermedio
 
-### 09 — Ordenar arreglo (algoritmo burbuja)
-Implementa el algoritmo de ordenamiento burbuja (Bubble Sort) manualmente, sin usar `Arrays.sort()`. Recibe un arreglo de enteros y devuélvelo ordenado de menor a mayor.
+### 09 — Ordenar arreglo (algoritmo de burbuja)
+Implementa el algoritmo de ordenamiento de burbuja (Bubble Sort) manualmente, sin usar `Arrays.sort()`. Recibe un arreglo de enteros y devuélvelo ordenado de menor a mayor.
 
-**Conceptos:** Arrays, bucles anidados, intercambio de variables (swap).
+**Conceptos:** Arreglos, bucles anidados, intercambio de variables (swap).
 
 ---
 
 ### 10 — Búsqueda binaria
 Implementa la búsqueda binaria manualmente, sin usar `Arrays.binarySearch()`. Recibe un arreglo ORDENADO y un número a buscar. Devuelve el índice o -1 si no existe.
 
-**Conceptos:** Arrays ordenados, while, índices `izquierda`/`derecha`, `medio`.
+**Conceptos:** Arreglos ordenados, while, índices `izquierda`/`derecha`, `medio`.
 
 ---
 
@@ -119,21 +119,21 @@ Implementa el cifrado César: desplaza cada letra N posiciones en el alfabeto. S
 
 **Ejemplo:** "Hola, Mundo!" con desplazamiento 3 → "Krod, Pxqgr!"
 
-**Conceptos:** Strings, `char`, casting, módulo `%`, `Character.isLetter()`.
+**Conceptos:** Cadenas de texto, `char`, conversión de tipos (casting), módulo `%`, `Character.isLetter()`.
 
 ---
 
 ### 13 — Conversor de números romanos
-Convierte un número romano (String) a número decimal (int). Soporta I=1, V=5, X=10, L=50, C=100, D=500, M=1000.
+Convierte un número romano (cadena de texto) a número decimal (entero). Soporta I=1, V=5, X=10, L=50, C=100, D=500, M=1000.
 
 **Ejemplo:** "XIV" → 14. "MMXXVI" → 2026.
 
-**Conceptos:** `HashMap`, Strings, bucles, lógica de resta (IV=4, IX=9).
+**Conceptos:** `HashMap`, Cadenas de texto, bucles, lógica de resta (IV=4, IX=9).
 
 ---
 
 ### 14 — Serializador CSV manual
-Crea una clase `Persona` con nombre, email y edad. Crea una lista de 5 personas. Genera un archivo CSV con cabecera y datos usando `StringBuilder` y `FileWriter`.
+Crea una clase `Persona` con nombre, correo electrónico y edad. Crea una lista de 5 personas. Genera un archivo CSV con cabecera y datos usando `StringBuilder` y `FileWriter`.
 
 **Conceptos:** POO, `StringBuilder`, `FileWriter`, formato CSV, `try-with-resources`.
 
@@ -141,7 +141,7 @@ Crea una clase `Persona` con nombre, email y edad. Crea una lista de 5 personas.
 
 ### 15 — Agenda de contactos CRUD
 Crea un programa con menú interactivo que permita:
-1. Agregar contacto (nombre, teléfono, email)
+1. Agregar contacto (nombre, teléfono, correo electrónico)
 2. Buscar contacto por nombre
 3. Listar todos los contactos
 4. Eliminar contacto por nombre
@@ -168,7 +168,7 @@ Implementa Fibonacci (fib(0)=0, fib(1)=1, fib(n)=fib(n-1)+fib(n-2)) usando memoi
 ---
 
 ### 18 — Matriz identidad NxN
-Pide un número N y genera una matriz identidad de NxN (1 en la diagonal principal, 0 en el resto) usando arrays bidimensionales.
+Pide un número N y genera una matriz identidad de NxN (1 en la diagonal principal, 0 en el resto) usando arreglos bidimensionales.
 
 **Ejemplo (N=4):**
 ```
@@ -178,7 +178,7 @@ Pide un número N y genera una matriz identidad de NxN (1 en la diagonal princip
 0 0 0 1
 ```
 
-**Conceptos:** Arrays 2D, bucles anidados, índice de diagonal.
+**Conceptos:** Arreglos 2D, bucles anidados, índice de diagonal.
 
 ---
 
@@ -241,11 +241,11 @@ Crea una clase genérica `Repositorio<T>` que mapee objetos Java a una tabla SQL
 
 ---
 
-### 25 — Analizador de logs con Streams
-Procesa una lista de strings simulando líneas de log (`"[INFO] Usuario login exitoso"`, `"[ERROR] Conexión fallida"`, etc.). Usa Streams para:
-1. Contar errores, warnings e infos
+### 25 — Analizador de registros con Streams
+Procesa una lista de cadenas de texto simulando líneas de registro (`"[INFO] Usuario inicio de sesión exitoso"`, `"[ERROR] Conexión fallida"`, etc.). Usa Flujos (Streams) para:
+1. Contar errores, advertencias e información
 2. Filtrar solo errores y mostrarlos
-3. Agrupar por nivel de log
+3. Agrupar por nivel de registro
 4. Encontrar el mensaje de error más largo
 
-**Conceptos:** Lambdas, Streams (`filter`, `map`, `collect`, `groupingBy`, `max`), `Collectors`.
+**Conceptos:** Lambdas, Flujos (Streams) (`filter`, `map`, `collect`, `groupingBy`, `max`), `Collectors`.
