@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Programación Orientada a Objetos — Clases y Objetos
  *  SECCIÓN: 15 — POO Básica

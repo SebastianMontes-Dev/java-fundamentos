@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Ejercicios Aplicados en Java
  *  SECCIÓN: 08 — Ejercicios

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Manejo de Excepciones en Java
  *  SECCIÓN: 18 — Excepciones

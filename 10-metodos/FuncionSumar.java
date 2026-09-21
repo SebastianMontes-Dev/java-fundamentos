@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Métodos (Funciones) en Java — Valor de retorno
  *  SECCIÓN: 10 — Métodos

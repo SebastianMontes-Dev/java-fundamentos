@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Gestión de Transacciones en JDBC
  *  SECCIÓN: 29 — Bases de Datos JDBC

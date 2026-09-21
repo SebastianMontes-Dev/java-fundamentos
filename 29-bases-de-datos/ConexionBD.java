@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Introducción a JDBC y Conexión
  *  SECCIÓN: 29 — Bases de Datos JDBC

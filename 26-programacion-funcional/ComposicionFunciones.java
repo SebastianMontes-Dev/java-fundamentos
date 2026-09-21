@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Programación Funcional en Java
  *  SECCIÓN: 26 — Programación Funcional

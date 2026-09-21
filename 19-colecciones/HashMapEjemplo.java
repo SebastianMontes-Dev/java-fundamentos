@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Colecciones en Java — HashMap
  *  SECCIÓN: 19 — Colecciones

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Formateo y Análisis de Fechas
  *  SECCIÓN: 27 — Fechas y Tiempo

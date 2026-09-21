@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Enums con Atributos, Constructores y Métodos
  *  SECCIÓN: 23 — Enums

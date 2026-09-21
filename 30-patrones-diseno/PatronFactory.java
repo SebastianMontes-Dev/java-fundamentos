@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Patrón de Diseño Factory Method
  *  SECCIÓN: 30 — Patrones de Diseño Básicos

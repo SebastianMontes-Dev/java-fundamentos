@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Introducción a Hilos (Threads) y Multihilos
  *  SECCIÓN: 28 — Concurrencia

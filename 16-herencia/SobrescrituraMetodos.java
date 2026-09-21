@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Herencia en Java — Sobrescritura de Métodos
  *  SECCIÓN: 16 — Herencia y Polimorfismo

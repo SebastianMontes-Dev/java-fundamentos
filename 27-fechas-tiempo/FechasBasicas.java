@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Fechas y Tiempo (java.time API)
  *  SECCIÓN: 27 — Fechas y Tiempo

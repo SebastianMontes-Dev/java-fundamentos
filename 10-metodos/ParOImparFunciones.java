@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Métodos (Funciones) en Java — Booleanos y condiciones
  *  SECCIÓN: 10 — Métodos

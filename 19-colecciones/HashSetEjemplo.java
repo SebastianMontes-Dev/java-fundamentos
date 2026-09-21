@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Colecciones en Java — HashSet
  *  SECCIÓN: 19 — Colecciones

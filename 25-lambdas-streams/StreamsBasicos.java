@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Expresiones Lambda y Streams
  *  SECCIÓN: 25 — Lambdas y Streams

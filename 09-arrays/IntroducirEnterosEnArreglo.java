@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Arreglos (Arrays) Unidimensionales en Java
  *  SECCIÓN: 09 — Arrays

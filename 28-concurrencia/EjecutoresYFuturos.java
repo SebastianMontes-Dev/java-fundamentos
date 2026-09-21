@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Ejecutores y Programación Asíncrona
  *  SECCIÓN: 28 — Concurrencia

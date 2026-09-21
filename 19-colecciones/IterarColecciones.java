@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Colecciones en Java — Iteración
  *  SECCIÓN: 19 — Colecciones

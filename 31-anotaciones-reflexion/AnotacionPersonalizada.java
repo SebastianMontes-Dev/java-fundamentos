@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Creación de Anotaciones Personalizadas
  *  SECCIÓN: 31 — Anotaciones y Reflexión

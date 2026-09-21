@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Manejo de Archivos en Java
  *  SECCIÓN: 22 — Archivos

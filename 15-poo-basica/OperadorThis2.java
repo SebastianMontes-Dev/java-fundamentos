@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Programación Orientada a Objetos — Operador this con Aritmética
  *  SECCIÓN: 15 — POO Básica

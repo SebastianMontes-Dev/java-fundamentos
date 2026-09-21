@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Reflexión (Reflection API)
  *  SECCIÓN: 31 — Anotaciones y Reflexión

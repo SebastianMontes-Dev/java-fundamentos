@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Patrón de Diseño Singleton
  *  SECCIÓN: 30 — Patrones de Diseño Básicos

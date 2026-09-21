@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Manipulación de Cadenas (String) en Java
  *  SECCIÓN: 02 — Cadenas

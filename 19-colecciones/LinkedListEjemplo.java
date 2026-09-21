@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Colecciones en Java — LinkedList
  *  SECCIÓN: 19 — Colecciones

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Cálculos de Tiempo y Diferencias
  *  SECCIÓN: 27 — Fechas y Tiempo

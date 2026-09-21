@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Anotaciones Integradas de Java
  *  SECCIÓN: 31 — Anotaciones y Reflexión

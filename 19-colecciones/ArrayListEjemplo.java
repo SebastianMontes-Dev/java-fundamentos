@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Colecciones en Java — ArrayList
  *  SECCIÓN: 19 — Colecciones

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Sincronización y Condiciones de Carrera
  *  SECCIÓN: 28 — Concurrencia

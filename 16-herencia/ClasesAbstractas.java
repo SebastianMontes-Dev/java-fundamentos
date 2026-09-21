@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ============================================================
  *  TEMA: Clases Abstractas en Java
  *  SECCIÓN: 16 — Herencia y Polimorfismo
