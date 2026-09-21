@@ -13,12 +13,19 @@ Repositorio educativo público (también publicado como sitio con GitHub Pages, 
 - Cada sección es una carpeta `NN-nombre/` (dos dígitos) con un `README.md` y sus `.java`. El README de sección lleva el título `# Sección XX — Nombre` y las partes «¿Qué vas a aprender?», «Archivos de la sección» (tabla), «Ejemplo de salida» y «Consejo profesional» (un consejo práctico real).
 - Cada `.java` lleva un encabezado Javadoc (TEMA, SECCIÓN, ARCHIVO, ¿QUÉ APRENDERÁS?, CONCEPTOS CLAVE, SINTAXIS BÁSICA, ERRORES COMUNES, RECURSOS ADICIONALES), clases en PascalCase y métodos en camelCase, separadores `===` y `---` en las salidas de `System.out.println`, `Scanner.close()` si usa `Scanner`, y debe compilar de forma independiente.
 
-## Problema conocido: BOM en los `.java`
+## Estado del CI: sigue en rojo por 6 archivos
 
-**72 de los 148 `.java` versionados empiezan con una marca BOM UTF-8**, y `javac` la rechaza (`illegal character: '﻿'`). Por eso el workflow de compilación falla: lleva 11 de 11 ejecuciones en rojo, y la última se detiene en `31-anotaciones-reflexion/ReflexionBasica.java`, que además tiene un segundo error de sintaxis en la línea 39.
+El BOM UTF-8 que `javac` rechazaba (`illegal character: '﻿'`) ya se quitó de los 72 `.java` afectados (commit `4c958d1`). Los archivos **nuevos** van en UTF-8 **sin** BOM. Los `README.md` de algunas secciones aún lo llevan; no rompe nada.
 
-- Los archivos **nuevos** van en UTF-8 **sin** BOM.
-- No lo arregles de paso: quitarlo es un cambio masivo (72 archivos) que va en su propio commit y hay que pedirlo.
+El workflow compila cada `.java` por separado con Java 17 y sigue fallando por 6 archivos, comprobados compilándolos uno a uno con `javac --release 17`:
+
+- `31-anotaciones-reflexion/ReflexionBasica.java:78`: `cannot find symbol` (lo tapaba el BOM).
+- `32-java-moderno/RecordsYSellados.java:132`: patrones en `switch`, que no existen con `--release 17`.
+- `32-java-moderno/SwitchExpresiones.java:116`: la variable `dias` ya está definida en `main`.
+- `32-java-moderno/TextBlocksYPatternMatching.java:68`: `illegal character: '\'`.
+- `33-testing-basico/TestCalculadora.java` y `TestParametrizado.java`: faltan las dependencias de JUnit 5 en el classpath del workflow.
+
+No los arregles de paso: cada uno se corrige por separado y hay que pedirlo.
 
 ## Commits (desajuste con `CONTRIBUTING.md`)
 
