@@ -23,9 +23,21 @@ jobs:
       - name: Compilar todos los archivos Java
         run: |
           echo "=== Compilando todos los archivos .java ==="
-          find . -name "*.java" -not -path "*/99-ejercicios/*" -print0 | while IFS= read -r -d '' file; do
+          find . -name "*.java" -not -path "*/99-ejercicios/*" -not -path "*/33-testing-basico/*" -print0 | while IFS= read -r -d '' file; do
             echo "Compilando: $file"
             javac "$file"
           done
           echo ""
           echo "=== Compilación completada exitosamente ==="
+
+      # La sección 33 necesita JUnit 5 y sus archivos dependen entre sí (los tests usan
+      # Calculadora), así que se compila completa y con el mismo JAR que indica su README.
+      - name: Compilar la sección de testing con JUnit 5
+        run: |
+          JUNIT=junit-platform-console-standalone-1.10.0.jar
+          URL=https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.10.0
+          curl -fsSL -o "$RUNNER_TEMP/$JUNIT" "$URL/$JUNIT"
+          echo "$(curl -fsSL "$URL/$JUNIT.sha1")  $RUNNER_TEMP/$JUNIT" | sha1sum -c -
+          mkdir -p "$RUNNER_TEMP/clases-33"
+          javac -cp "$RUNNER_TEMP/$JUNIT" -d "$RUNNER_TEMP/clases-33" 33-testing-basico/*.java
+          echo "=== Sección 33 compilada exitosamente ==="
