@@ -113,8 +113,8 @@ public class SwitchExpresiones {
         // --- EJEMPLO PRÁCTICO: CALCULADORA DE DÍAS POR MES ---
         System.out.println("--- 5. Ejemplo Práctico: Días por Mes ---");
         for (int mes = 1; mes <= 12; mes++) {
-            int dias = diasPorMes(mes);
-            System.out.printf("  Mes %2d: %d días%n", mes, dias);
+            int diasDelMes = diasPorMes(mes);
+            System.out.printf("  Mes %2d: %d días%n", mes, diasDelMes);
         }
     }
 

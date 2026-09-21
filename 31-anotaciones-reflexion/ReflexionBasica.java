@@ -68,13 +68,33 @@ class ControladorWeb {
 }
 
 public class ReflexionBasica {
+
+    // Copia mínima de @Columna y Usuario, tal como se definen en AnotacionPersonalizada.java.
+    // Van anidadas aquí para que este archivo compile por sí solo.
+    @Retention(RetentionPolicy.RUNTIME)
+    @Target(ElementType.FIELD)
+    @interface Columna {
+        String nombre();
+        boolean esClavePrimaria() default false;
+    }
+
+    static class Usuario {
+        @Columna(nombre = "id_usuario", esClavePrimaria = true)
+        private int id;
+
+        @Columna(nombre = "nombre_completo")
+        private String nombre;
+
+        private String datoTemporal; // Este campo no está anotado
+    }
+
     public static void main(String[] args) {
         System.out.println("=== API DE REFLEXIÓN ===\n");
 
-        // 1. LEER LA ANOTACIÓN DEL ARCHIVO ANTERIOR (@Columna en la clase Usuario)
+        // 1. LEER LA ANOTACIÓN @Columna EN LA CLASE Usuario
         System.out.println("1. Inspeccionando campos y anotaciones (Simulación de ORM):");
-        
-        // Obtenemos la estructura de la clase Usuario (definida en AnotacionPersonalizada.java)
+
+        // Obtenemos la estructura de la clase Usuario (la copia anidada de arriba)
         Class<Usuario> claseUsuario = Usuario.class;
         Field[] campos = claseUsuario.getDeclaredFields();
 

@@ -65,7 +65,7 @@ public class TextBlocksYPatternMatching {
         // ============================================
         //  TEXT BLOCKS
         // ============================================
-        System.out.println("--- 1. Text Blocks (\""\""\"...\""\""\") ---");
+        System.out.println("--- 1. Text Blocks (\"\"\"...\"\"\") ---");
         System.out.println();
 
         // ANTES: concatenación manual (horrible)

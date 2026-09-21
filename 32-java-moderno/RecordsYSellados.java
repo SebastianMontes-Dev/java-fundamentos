@@ -17,8 +17,9 @@
  *  con `sealed class` + `permits`. Es perfecto para modelar jerarquías
  *  cerradas como "un Resultado es Éxito o Error", o "una Figura es
  *  Círculo, Rectángulo o Triángulo". El compilador verifica que todas
- *  las subclases permitidas estén declaradas. Combinado con switch
- *  expressions, obtienes exhaustividad verificada por el compilador.
+ *  las subclases permitidas estén declaradas. Con Java 21, un switch
+ *  con patrones sobre una jerarquía sealed además verifica la
+ *  exhaustividad en compilación (aquí se usa instanceof, válido en 17).
  *
  *  CONCEPTOS CLAVE:
  *  ----------------------------------
@@ -107,8 +108,8 @@ public class RecordsYSellados {
         }
         System.out.println();
 
-        // --- SEALED + SWITCH: exhaustividad verificada ---
-        System.out.println("--- Sealed + Switch Expression ---");
+        // --- SEALED + INSTANCEOF: despacho por tipo ---
+        System.out.println("--- Sealed + instanceof ---");
 
         for (Figura f : figuras) {
             String descripcion = describir(f);
@@ -126,13 +127,16 @@ public class RecordsYSellados {
         return 0;
     }
 
-    // Switch con sealed class: el compilador verifica exhaustividad
+    // Con Java 17 se despacha con instanceof. En Java 21 esto se escribe como un switch con
+    // patrones (case Circulo c -> ...) que no necesita el throw final: el compilador
+    // verifica que cubras todas las subclases de la sealed interface.
     static String describir(Figura f) {
-        return switch (f) {
-            case Circulo c -> String.format("Círculo de radio %.1f", c.radio());
-            case Rectangulo r -> String.format("Rectángulo de %.1f x %.1f", r.base(), r.altura());
-            // No necesita default: las sealed classes garantizan solo estos casos
-        };
+        if (f instanceof Circulo c) {
+            return String.format("Círculo de radio %.1f", c.radio());
+        } else if (f instanceof Rectangulo r) {
+            return String.format("Rectángulo de %.1f x %.1f", r.base(), r.altura());
+        }
+        throw new IllegalArgumentException("Figura no soportada: " + f);
     }
 }
 
